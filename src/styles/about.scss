@@ -40,9 +40,7 @@
   }
   .image-wrapper {
     width: 50%;
-    height: 400px;
     margin: auto;
-    display: flex;
     align-content: center;
     justify-content: center;
     overflow: hidden;
@@ -54,6 +52,10 @@
       width: 100%;
     }
     @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    img {
       width: 100%;
     }
   }
