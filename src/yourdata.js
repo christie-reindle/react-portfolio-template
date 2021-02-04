@@ -1,37 +1,45 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import dockerIcon from "./images/docker.png"
+import awsIcon from "./images/aws.png"
+import javaIcon from "./images/java.png"
+import es6Icon from "./images/es6.png"
+
+// Images
+import aboutImage from "./images/ME.jpg"
+import HTML5Phaser from "./images/HTML5PhaserWorkshop.png"
+import JLV from "./images/JLV.png"
+import JLVReact from "./images/JLVReact.png"
+import nodeVISTA from "./images/nodeVISTA.png"
+import soundsOfTheSea from "./images/SoundsOfTheSea.jpg"
+import stylesForHue from "./images/stylesForHue.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Christie",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Full-Stack",
     //Line 2 For Header
-    "products, brands,",
+    "Web Developer",
     //Line 3 For Header
-    "and experience",
+    "Software Engineer",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "creindle@gmail.com",
 
   // End Header Details -----------------------
 
@@ -39,69 +47,63 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Joint Legacy/Longitudinal Viewer (React)", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "JavaScript, Docker, AWS, Microsoft SQL Server, Glassfish", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: JLVReact,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.health.mil/Reference-Center/Fact-Sheets/2019/11/01/Joint-Longitudinal-Viewer-Fact-Sheet#:~:text=WHAT%20IS%20THE%20JOINT%20LONGITUDINAL,in%20a%20common%20data%20viewer.",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Joint Legacy/Longitudinal Viewer (Java)", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Groovy, Grails, Springboot, GlassFish, Maven, VirtualBox", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: JLV,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.youtube.com/watch?v=fFkr8mD7Jfs&ab_channel=UnitedStatesAirForceExpeditionaryMedicalIM%2FIT",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "VistA Adaptive Maintence", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Node.js, JavaScript, Docker, Mongo, Jenkins, Jasmine, Async, Vagrant, VirtualBox, MUMPS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: nodeVISTA,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://vistadataproject.info/demo/",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Sounds of the Sea", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "JavaScript, Phaser, HTML, CSS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: soundsOfTheSea,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://junior-devleague.github.io/sounds-of-the-sea/",
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Summer Workshop Game", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "HTML5, Javascript, Phaser", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: HTML5Phaser,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/christie-reindle/HTML5-Phaser-Summer-Workshop",
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Styles for Hue", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "React, Redux, JavaScript, Mongo, Express, Sass", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: stylesForHue,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://www.stylesforhue.com/",
     },
 
     /*
@@ -120,13 +122,12 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Christie Reindle is a software engineer and full-stack web developer. Christie earned a bachelor's degree in both Computer Science and Psychology from University of Hawaii at Manoa. In her senior year of college, she enrolled in DevLeague, an accelerated coding bootcamp to develop talent for employability into the techology industry.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "After completing the program, she turned her energies to community service. She became a web and software development instructor and taught students ranging from elementary school students, to high school teachers. In 2017, she joined Hawaii Resource Group Technologies, LLC, a company focused on supporting veterans through their medical providers. At this company, she developed experience in the top programming skills such as React, Java, and cloud services.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "She aspires to work for a company that not only supports her, but challenges her to grow as quickly as the industry evolves. In her spare time, she enjoys powerlifting and playing video games.",
+  aboutImage,
 
   //   End About Section ---------------------
 
@@ -137,72 +138,62 @@ export default {
   skills: [
     {
       id: 1,
-      img: htmlIcon,
+      img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "3 years",
     },
     {
       id: 2,
-      img: cssIcon,
+      img: awsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "2 years",
     },
     {
       id: 3,
-      img: jsIcon,
+      img: dockerIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "3 years",
     },
     {
       id: 4,
-      img: reactIcon,
+      img: javaIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "2 years",
     },
     {
       id: 5,
-      img: designIcon,
+      img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "4 years",
     },
     {
       id: 6,
-      img: codeIcon,
+      img: es6Icon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "3 years",
     },
   ],
 
   // End Skills Section --------------------------
 
-  //   Promotion Section --------------------------
-
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
-
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's work together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/christie-reindle/",
     },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+    { 
+      img: githubIcon, 
+      url: "https://github.com/christie-reindle"
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/ohmydeargoodness",
     },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

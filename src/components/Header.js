@@ -11,7 +11,7 @@ const Header = () => {
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
-                👋
+                🤙
               </span>
             </h2>
           </Fade>
@@ -42,7 +42,7 @@ const Header = () => {
           <Fade bottom>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "creindle@gmail.com"
               }`}
               className="primary-btn"
             >
