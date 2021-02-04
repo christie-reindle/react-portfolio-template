@@ -40,10 +40,13 @@
   }
   .image-wrapper {
     width: 50%;
+    height: 400px;
+    margin: auto;
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     overflow: hidden;
+    background-size: contain;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
