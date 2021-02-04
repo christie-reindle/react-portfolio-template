@@ -26,7 +26,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With <icon>❤</icon> by{" "}Christie Reindle
+            Made With <icon>Aloha🌺</icon>by{" "}Christie Reindle
           </span>
         </div>
       </div>
