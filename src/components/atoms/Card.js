@@ -2,13 +2,19 @@ import React from "react"
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
 
+
+
   return (
+    
     <a
       href={projectLink ? projectLink : "#"}
       target="_blank"
       rel="noopener noreferrer"
       className="btn"
     >
+      <div>
+        <img src={imgUrl} class="preload"/>
+      </div>
       <div
         className="card"
         style={{
