@@ -21,11 +21,8 @@ const About = () => {
               {data.aboutParaThree}
             </p>
           </div>
-          <div>
-            <img src={data.aboutImage} class="preload"/>
-          </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img rel="preload" src={data.aboutImage} alt="about"></img>
           </div>
         </div>
       </div>

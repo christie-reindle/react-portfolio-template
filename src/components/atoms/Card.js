@@ -1,8 +1,7 @@
-import React from "react"
+import React from "react";
+import PreloadImage from "react-preload-image";
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
-
-
 
   return (
     
@@ -12,10 +11,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       rel="noopener noreferrer"
       className="btn"
     >
-      <div>
-        <img src={imgUrl} class="preload"/>
-      </div>
-      <div
+      <PreloadImage
         className="card"
         style={{
           backgroundImage:
@@ -28,7 +24,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           <h1 className="header">{heading}</h1>
           <p className="text">{paragraph}</p>
         </div>
-      </div>
+      </PreloadImage>
     </a>
   )
 }
