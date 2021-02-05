@@ -12,6 +12,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       className="btn"
     >
       <PreloadImage
+        lazy
         className="card"
         style={{
           backgroundImage:
